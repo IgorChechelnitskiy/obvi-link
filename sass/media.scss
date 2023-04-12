@@ -89,3 +89,9 @@
     }
   }
 }
+@media (min-width: 901px) {
+  .center {
+    padding-left: calc(50vw - 450px);
+    padding-right: calc(50vw - 450px);
+  }
+}
