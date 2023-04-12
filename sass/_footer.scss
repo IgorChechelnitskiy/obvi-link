@@ -14,14 +14,14 @@
 
     &-buttons {
       display: flex;
+      width: 130%;
       text-align: center;
       border: 1px solid #B4B4B4;
       border-radius: 3px;
 
       a {
+
         width: 33%;
-        text-decoration: none;
-        color: var(--main-text-color);
         font-weight: 600;
         border-right: 1px solid #B4B4B4;;
         padding-top: 12px;
@@ -72,8 +72,15 @@
   }
 
   &__block-button {
+    display: flex;
+    justify-content: center;
     text-align: center;
+
+    a {
+      width: 100%;
+    }
   }
+
   &__block-policy {
     margin-top: 120px;
     padding-bottom: 165px;
@@ -81,7 +88,7 @@
     flex-direction: column-reverse;
     align-items: center;
 
-    span  {
+    span {
       font-weight: 400;
       color: #CBDFE6;
       margin-bottom: 16px;
