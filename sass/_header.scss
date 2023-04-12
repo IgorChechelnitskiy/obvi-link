@@ -1,5 +1,5 @@
 .header {
-  background: url("../img/header-bg.png") top no-repeat;
+  background: url("../img/header-bg.png") top / cover no-repeat;
 
   .navigation {
     position: fixed;
@@ -103,15 +103,22 @@
   }
 
   &__hero {
-    padding-top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 85px 0 0 0;
 
     &-offer {
       display: flex;
+      align-items: center;
       flex-direction: column;
     }
+
     &-title {
       margin: 0;
     }
+
     &-text {
       margin: 11px auto 12px;
     }
@@ -126,7 +133,7 @@
       flex-direction: column;
       justify-content: center;
 
-      & img:nth-child(2)  {
+      & img:nth-child(2) {
         width: 96px;
         align-self: center;
       }
@@ -137,3 +144,9 @@
     }
   }
 }
+
+
+
+
+
+

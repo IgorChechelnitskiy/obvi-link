@@ -1,6 +1,4 @@
-.footer {
-  padding-left: calc(50vw - 150px);
-  padding-right: calc(50vw - 150px);
+
 
   .footer__rates {
     display: flex;
@@ -71,7 +69,7 @@
     }
   }
 
-  &__block-button {
+  .footer__block-button {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -81,7 +79,7 @@
     }
   }
 
-  &__block-policy {
+  .footer__block-policy {
     margin-top: 120px;
     padding-bottom: 165px;
     display: flex;
@@ -94,4 +92,3 @@
       margin-bottom: 16px;
     }
   }
-}
